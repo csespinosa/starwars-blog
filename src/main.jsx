@@ -6,13 +6,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
 
 // index.css'
-import '../styles/index.css'
+import './styles/StarWars.css'
 
 // components
-import Home from './components/Home';
+import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <App />
   </React.StrictMode>,
 )
